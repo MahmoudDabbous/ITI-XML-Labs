@@ -28,9 +28,9 @@
         </xsl:for-each>
       </ul>
       <p>Address:</p>
-      <p><xsl:value-of select="addresses/address/Street"/> <xsl:value-of select="addresses/address/BuildingNumber"/></p>
-      <p><xsl:value-of select="addresses/address/Region"/>, <xsl:value-of select="addresses/address/City"/></p>
-      <p><xsl:value-of select="addresses/address/Country"/></p>
+      <p><xsl:value-of select="addresses/address/street"/>, <xsl:value-of select="addresses/address/buildingNumber"/></p>
+      <p><xsl:value-of select="addresses/address/region"/>, <xsl:value-of select="addresses/address/city"/></p>
+      <p><xsl:value-of select="addresses/address/country"/></p>
     </div>
   </xsl:template>
 </xsl:stylesheet>
