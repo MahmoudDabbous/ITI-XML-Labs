@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="library.css"?>
+<library>
+    <location>Alexandria library</location>
+    <description>A public library serving the community with a vast collection of books.</description>
+    <librarian>
+        <name>Mahmoud Osama</name>
+        <email>mahmoud@gmail.com</email>
+    </librarian>
+    <books>
+        <book>
+            <title>Introduction to Programming</title>
+            <isbn>978-1-234567-89-0</isbn>
+            <author>John Smith</author>
+        </book>
+        <book>
+            <title>The Great Gatsby</title>
+            <isbn>978-0-7432-7356-5</isbn>
+            <author>F. Scott Fitzgerald</author>
+        </book>
+        <book>
+            <title>To Kill a Mockingbird</title>
+            <isbn>978-0-06-112008-4</isbn>
+            <author>Harper Lee</author>
+        </book>
+    </books>
+</library>

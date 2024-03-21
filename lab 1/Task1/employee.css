@@ -1,0 +1,39 @@
+employees{
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap:20px;
+    height: 100vh;
+    font-size: medium;
+}
+employee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    margin-bottom:1%;
+    padding: 1%;
+    border: solid thin black;
+    border-radius: 10px;
+    font-family: monospace;
+}
+name{
+    font-weight: bold;
+    font-size: x-large;
+    padding:1%;
+}
+address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

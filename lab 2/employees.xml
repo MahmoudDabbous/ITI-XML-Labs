@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="employee.css"?>
+<employees>
+    <employee id="1">
+        <name>
+            <first>Mahmoud</first>
+            <last>Dabbous</last>
+        </name>
+        <phones>
+            <phone type="home">004561237</phone>
+            <phone type="work">002589631</phone>
+            <phone type="mobile">01912345678</phone>
+        </phones>
+        <addresses>
+            <address>
+                <City>Alexandria</City>
+                <Country>Eqypt</Country>
+            </address>
+        </addresses>
+        <email>mahmoud@gmail.com</email>
+    </employee>
+    <employee id="2">
+        <name>
+            <first>Ahmed</first>
+            <last>Galal</last>
+        </name>
+        <phones>
+            <phone type="home">004561237</phone>
+            <phone type="work">002589631</phone>
+            <phone type="mobile">01912345678</phone>
+        </phones>
+        <addresses>
+            <address>
+                <City>Alexandria</City>
+                <Country>Eqypt</Country>
+            </address>
+        </addresses>
+        <email>mahmoud@gmail.com</email>
+    </employee>
+    <employee id="3">
+        <name>
+            <first>Mohammed</first>
+            <last>Ali</last>
+        </name>
+        <phones>
+            <phone type="home">004561237</phone>
+            <phone type="work">002589631</phone>
+            <phone type="mobile">01912345678</phone>
+        </phones>
+        <addresses>
+            <address>
+                <City>Alexandria</City>
+                <Country>Eqypt</Country>
+            </address>
+        </addresses>
+        <email>mahmoud@gmail.com</email>
+    </employee>
+</employees>

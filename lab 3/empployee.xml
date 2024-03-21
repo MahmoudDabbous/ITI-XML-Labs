@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<employees>
+    <employee>
+        <name>Mahmoud Dabbous</name>
+        <phones>
+            <phone type="phone1">011</phone>
+            <phone type="phone2">012</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Ahmed 1 st</street>
+                <buildingNumber>88</buildingNumber>
+                <region>Semouha</region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <email>mohamed1@test.com</email>
+    </employee>
+    <employee>
+        <name>Ali Hassan</name>
+        <phones>
+            <phone type="phone1">011</phone>
+            <phone type="phone2">012</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>Ahmed 2 st</street>
+                <buildingNumber>99</buildingNumber>
+                <region>Semouha</region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <email>osama@test.com</email>
+    </employee>
+</employees>

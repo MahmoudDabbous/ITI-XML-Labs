@@ -1,0 +1,20 @@
+<!DOCTYPE employees [
+    <!ELEMENT employees (employee+)>
+    <!ELEMENT employee (name, phones, addresses, email)>
+    <!ATTLIST employee
+        id ID #REQUIRED
+    >
+    <!ELEMENT name (first, last)>
+    <!ELEMENT first (#PCDATA)>
+    <!ELEMENT last (#PCDATA)>
+    <!ELEMENT phones (phone+)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ATTLIST phone
+        type CDATA #REQUIRED
+    >
+    <!ELEMENT addresses (address)>
+    <!ELEMENT address (City, Country)>
+    <!ELEMENT City (#PCDATA)>
+    <!ELEMENT Country (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+]>
